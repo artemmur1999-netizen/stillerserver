@@ -53,4 +53,8 @@ def kjg(user):
 def lgihkj(user, file):
     return get_file(get_user_data(user), file)
 
+@app.route("/users")
+def yftghj():
+    return data
+
 app.run(debug=False, port=port)
